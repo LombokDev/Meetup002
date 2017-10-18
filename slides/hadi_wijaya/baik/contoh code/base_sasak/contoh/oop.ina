@@ -1,0 +1,28 @@
+ DefinisiBenda SebuahMobil [
+# parameter dalam cakupan Global
+# untuk parameter hanya dalam objek, gunakan LOKAL
+
+jenis
+merk
+maxkecepatan=240
+LOKAL nomer
+LOKAL pemilik
+LOKAL warna
+
+fungsi SebuahMobil(nama,no) {
+
+pemilik = nama
+
+nomer = no
+
+tulis "DALAM OBJEK: ",nama,"\n"
+}
+fungsi lihatPemilik() {
+
+balik pemilik
+}
+fungsi lihatNomer() {
+
+balik nomer
+}
+]

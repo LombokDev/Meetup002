@@ -1,0 +1,31 @@
+#awal kode inti
+tulis "tes rekursif dgn BAIK - Faktorial\n"
+
+A = 5
+
+F = &tesFaktorial(A)
+tulis "F=",F,"\n"
+
+tulis "== selesai ==\n"
+
+tamat
+#akhir kode inti
+
+#fungsi faktorial
+
+fungsi tesFaktorial(a) {
+  ret = 1
+  tulis "a mulai=",a,"\n"
+
+  jika a == 1 maka
+    ret = 1
+  lainnya
+    b = &tesFaktorial(a - 1)
+    ret = a * b
+  akhirjika
+
+  tulis "a akhir=",a,"\n"
+
+  balik ret
+}
+

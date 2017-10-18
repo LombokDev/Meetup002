@@ -1,0 +1,17 @@
+mkdir usr/local/bin
+mkdir usr/local/lib
+mkdir usr/local/etc/baik
+cd usr/local/bin
+cp {compilation place}/baik .
+cd ../../../usr/local/lib
+cp /usr/local/lib/libhpdf* .
+cd ../../../usr/local/etc/baik
+cp {compilation place}/*.jpg .
+cp {compilation place}/*.wav .
+cp -r {compilation place}/tes*
+
+cd ../../../..
+dpkg-deb --build baikdeb
+mv baikdeb.deb baik_ubuntu_bin_0xx.deb
+dpkg -i baik_ubuntu_bin_0xx.deb
+dpkg -l | grep baik

@@ -1,0 +1,28 @@
+TULIS "============================================\n"
+TULIS "| BERAJAH BAHASE PEMROGRAMAN BAHASE SASAK | \n"
+TULIS "============================================\n"
+# DEVINISIAN VARIABEL
+
+a = 13
+b = 7
+
+TULIS "a = ", a, "\n"
+TULIS "b = ", b, "\n"
+
+#PERBANDINGAN KADU BASE SASAK
+
+LAMUN a > b 
+JARIN TULIS "A lebih beleq tebandingan kance B \n"
+LAMUNENDEK TULIS "B lebih beleq tebandingan kance A \n" 
+LAMUNSELESE
+
+# OPRASI MATEMATIKA A TEROMBOK B
+
+c = a + b
+
+TULIS "a + b = " , c , "\n"
+
+c = a / b
+
+TULIS_RINCI "a / b = " , c , "\n"
+

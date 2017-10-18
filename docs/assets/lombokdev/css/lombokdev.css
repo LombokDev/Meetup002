@@ -1,0 +1,101 @@
+body {
+  font-family:Arial;
+  margin:0px !important;
+}
+.logo {
+  padding-top:150px;
+}
+.logo-container {
+  margin:0 auto;
+  text-align:center;
+  width:100%;
+}
+
+.page-main-view {
+  width:100%;
+  height:100vh;
+}
+
+.page-header{
+    font-size: 14px;
+    margin-left: 35px;
+}
+
+.text-center {
+    text-align: center;
+    padding: auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col.d-flex {
+  flex-grow: 1;
+}
+
+.card {
+  width: 100%;
+}
+
+.content-container {
+  padding-top:50px;
+  margin:0 auto;
+  text-align:center;
+  width:100%;
+}
+.speakers {
+  padding-top:50px;
+  font-size:36px;
+}
+.speaker-container {
+  padding-top:30px;
+}
+.speaker-avatar {
+  width:100px;
+  height:100px;
+  border-radius:50px;
+  padding-top:5px;
+}
+.speaker-name {
+  padding-top:5px;
+  color:gray;
+  font-size:18px;
+}
+.speaker-title {
+  color:red;
+  padding-top:5px;
+  font-size:22px;
+}
+.footer {
+  padding-top:50px;
+  margin-bottom:-20px;
+}
+.footer-copyright{
+  color:white;
+}
+
+.fork-me {
+  background:red;
+}
+
+.main-title{
+  margin-bottom:50px;
+}
+.col-logo-mobile {
+  display:none;
+}
+
+@media screen and (max-width: 768px) {
+  .col-logo {
+    display:none !important;
+  }
+  .col-logo-mobile {
+    display:block !important;
+  }
+  .page-main-view {
+    width:100%;
+    height:auto !important;
+  }
+}
