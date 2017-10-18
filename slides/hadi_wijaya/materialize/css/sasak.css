@@ -1,0 +1,21 @@
+.navbar-meco{
+  position: relative;
+  height: 56px;
+  z-index: 997;  
+}
+
+.logo{
+    height: 50px;
+    vertical-align: middle;
+}
+
+.warne-ejo{
+    background: #00897b !important;
+}
+
+#index-banner{
+    height: 100%;
+    top: 100px;
+    bottom: 0;
+    width: auto;
+}

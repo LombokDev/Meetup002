@@ -1,0 +1,27 @@
+#!/usr/bin/baik
+#===================================================
+# Kode Program Bahasa Baik versi Indonesia
+# Oleh Haris Hasanudin 2015
+#===================================================
+
+POST_CGI
+
+tulis "Content-type: text/html\n\n"
+tulis "<!DOCTYPE HTML>\n";
+tulis "	<html>\n";
+tulis "	<head>";
+tulis "		<title>Aksi Form</title>\n";
+
+tulis "	</head>\n";
+tulis " <body>\n";
+
+tulis "Hasil Tamaq Date <BR><BR>"
+tulis "<pre>";
+tulis "Aran 	 : ", post_nilai 0, "<br>";
+tulis "Umur 	 : ", post_nilai 1, "<br>";
+tulis "Status	 : ", post_nilai 2, "<br>";
+tulis "Alamat	 : ", post_nilai 3, "<br>";
+tulis "<pre>";
+tulis "</div>";
+tulis "</body>\n";
+tulis "</html>\n";
